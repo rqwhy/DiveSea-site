@@ -1,0 +1,92 @@
+.footer{
+    background-color: rgb(20, 20, 22);
+    &__container{
+        padding: 105px 0 81px;
+    }
+
+    &__logo{
+        transition: transform .2s ease-in-out;
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            transform: scale(105%);
+        }       
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &--first{
+            padding-bottom: 32px;
+            border-bottom: 1px solid rgb(129, 129, 129);
+            margin-bottom: 57px;
+        }
+    }
+
+    &__list{
+        display: flex;
+        gap: 70px;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: rgb(185, 185, 185);
+        font-size: 17.83px;
+        font-weight: 500;
+        line-height: 26.74px;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #c5c5c5;
+        }       
+
+        &:active{
+            color: #a54d12;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__coperide{
+        color: rgb(153, 153, 153);
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+
+    &__icon{
+        &:hover{
+            filter: invert(78%) sepia(8%) saturate(301%) hue-rotate(198deg) brightness(90%) contrast(85%);
+          }
+
+          &:active{
+            filter: invert(31%) sepia(28%) saturate(2714%) hue-rotate(355deg) brightness(99%) contrast(90%);
+          }
+
+          &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+}

@@ -1,0 +1,159 @@
+.header{
+    padding: 45px 0 55px;
+
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo{
+        margin-right: 57px;
+        transition: transform .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            transform: scale(105%);
+        }       
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__nav{
+        margin-right: 117px;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 53px;
+    }
+
+    &__link{
+        color: rgb(96, 96, 96);
+        font-family: Inter;
+        font-size: 17.83px;
+        font-weight: 500;
+        line-height: 26.74px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #c5c5c5;
+        }       
+
+        &:active{
+            color: #a54d12;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__input{
+        margin-right: 30px;
+
+        border-radius: 15px;
+        border: 0;
+        background: rgb(237, 237, 237);
+
+        padding: 21px 23px 21px 70px;
+
+        min-width: 348px;
+
+        background-image: url(../img/header-icon.png);
+        background-repeat: no-repeat;
+        background-position: 23px center;
+
+        &::placeholder{
+            color: rgb(194, 195, 203);
+            font-family: Poppins;
+            font-size: 15.71px;
+            font-weight: 500;
+            line-height: 117.5%;
+            letter-spacing: -2%;
+            text-align: left;
+        }
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #c5c5c5;
+        }       
+
+        &:focus-visible{
+            outline: 1.5px solid #000000;
+            border-radius: 15px;
+        }
+
+        &::-webkit-search-cancel-button {
+            -webkit-appearance: none;
+            appearance: none;
+            height: 20px;
+            width: 20px;
+            background-image: url(../img/hero-navig-next.svg);
+            background-size: 20px 20px;
+        }
+    }
+
+    &__btn{
+        padding: 16.5px 24px;
+
+        border: 0;
+        border-radius: 16.17px;
+
+        background: rgb(20, 20, 22);
+        color: rgb(255, 255, 255);
+
+        font-family: Inter;
+        font-size: 16.17px;
+        font-weight: 500;
+        line-height: 24.26px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+
+        cursor: pointer;
+
+        transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #9c9c9c;
+        }       
+
+        &:active{
+            color: #9c9c9c;
+            background-color: #ffffff;
+            outline: 1px solid #000000;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+}

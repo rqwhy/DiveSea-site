@@ -1,0 +1,26 @@
+:root {
+  --dark-color: #141416;
+}
+
+.weekly {
+  background-color: #f1f1f1;
+}
+.weekly__container {
+  padding: 70px 0 90px;
+}
+.weekly__title {
+  text-align: center;
+  color: rgb(197, 197, 197);
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 26.92px;
+  letter-spacing: 0px;
+  margin-bottom: 90px;
+}
+.weekly__slider {
+  padding-bottom: 210px !important;
+}
+.weekly__carsds {
+  max-width: 200px !important;
+}/*# sourceMappingURL=weekly.css.map */

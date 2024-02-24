@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiveSea</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/weekly.css">
+    <link rel="stylesheet" href="css/collection.css">
+    <link rel="stylesheet" href="css/explore.css">
+    <link rel="stylesheet" href="css/advanteges.css">
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/footet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="/js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+   <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img class="header__logo-image" src="img/header_logo.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">discover</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">creators</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">sell</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">stats</a>
+                    </li>
+                </ul>
+            </nav>
+            <input class="header__input" type="search" placeholder="Search Art Work&nbsp;/ Creator">
+            <button class="header__btn">Connect Wallet</button>
+        </div>
+   </header>
+   <section class="hero">
+    <div class="hero__container container">
+        <div class="hero__content">
+            <h1 class="hero__title">Discover And Create NFTs</h1>
+            <p class="hero__text">Discover, Create and Sell NFTs On&nbsp;Our NFT Marketplace With Over Thousands Of&nbsp;NFTs And Get a&nbsp;$20&nbsp;bonus.</p>
+            <div class="hero__buttons">
+                <button class="hero__btn hero__btn--explore">Explore More</button>
+                <button class="hero__btn hero__btn--create">create NFT</button>
+            </div>
+            <div class="hero__marks">
+                <div class="hero__mark">
+                    <p class="hero__point">430K+</p>
+                    <span class="hero__descr">Art Works</span>
+                </div>
+                <div class="hero__mark">
+                    <p class="hero__point">159K+</p>
+                    <span class="hero__descr">Creators</span>
+                </div>
+                <div class="hero__mark">
+                    <p class="hero__point">87K+</p>
+                    <span class="hero__descr">Collections</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero__slider-wrapper">
+        <div class="hero__slider swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="hero__slide swiper-slide"><img class="hero__image slider__img" src="img/hero-slide.png" alt="slider image rectengle"></div>
+    
+              <div class="hero__slide swiper-slide"><img class="hero__image slider__img" src="img/hero-slide.png" alt="slider image rectengle"></div>
+            </div>
+            <div class="slider__navigation slider__navigation--hero">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="weekly">
+        <div class="weekly__container container">
+            <h2 class="weekly__title">Weekly&nbsp;&mdash; Top NFT</h2>
+        </div>
+        <div class="swiper mySwiper weekly__slider">
+            <div class="swiper-wrapper weekly__cards">
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card1.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">Sun-Glass</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.75</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card2.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">Sun-Glass</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.75</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card3.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">NuEvey</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.25</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card4.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">NuEvey</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.25</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card5.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">Sun-Glass</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.75</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card1.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">NuEvey</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.25</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card2.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">NuEvey</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.25</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="weekly__card card">
+                    <div class="weekly__top card__top">
+                        <img class="weekly__img card__img" src="img/weekly-card3.png" alt="crypto image">
+                        <time class="weekly__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                    </div>
+                    <p class="weekly__card-name card__name">NuEvey</p>
+                    <div class="weekly__card-content card__content">
+                        <div class="weekly__card-price card__price-block">
+                            <span class="weekly__descr card__descr">Current bid</span>
+                            <span class="weekly__price card__price">1.25</span>
+                        </div>
+                        <button class="weekly__btn card__btn">PLACE BID</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="slider__navigation slider__navigation--weekly">
+                <div class="swiper-button-prev "></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+   </section>
+   <section class="collection">
+    <div class="collection__container container">
+        <div class="collection__card">
+            <div class="collection__card-top">
+                <h2 class="collection__card-title">Recent Viewed</h2>
+                <button class="collection__card-btn"><img class="collection__card-btn-img" src="img/collection-btn.svg"></button>
+            </div>
+            <div class="collection__users-stat">
+                <div class="collection__user-stat">
+                    <div class="collection__user">
+                        <div class="collection__card-image-numb">
+                            <img class="collection__afatar" src="img/user-icon-1.png" alt="" width="44" height="44">
+                            <span class="collection__img-count">1</span>
+                        </div>
+                        <div class="collection__aftor-descr">
+                            <p class="collection__aftor-name collection__aftor-name--minsize">Alex Ca.</p>
+                            <span class="collection__adressed">Alexy</span>
+                        </div>
+                    </div>
+                    <div class="collection__user-price">
+                        <p class="collection__price">4,780</p>
+                        <p class="collection__percent">+23,00%</p>
+                    </div>
+                </div>
+                <div class="collection__user-stat">
+                    <div class="collection__user">
+                        <div class="collection__card-image-numb">
+                            <img class="collection__afatar" src="img/user-icon-2.png" alt="" width="44" height="44">
+                            <span class="collection__img-count">2</span>
+                        </div>
+                        <div class="collection__aftor-descr">
+                            <p class="collection__aftor-name collection__aftor-name--minsize">Juliya S.</p>
+                            <span class="collection__adressed">JuliyaS</span>
+                        </div>
+                    </div>
+                    <div class="collection__user-price">
+                        <p class="collection__price">5,327</p>
+                        <p class="collection__percent collection__percent--minus">-32,01%</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <h2 class="collection__title">Top Collection</h2>
+        <table class="collection__table">
+            <thead class="collection__subtitle">
+                <tr class="collection__top">
+                    <th class="collection__table-departments" scope="col">Collection</th>
+                    <th class="collection__table-departments" scope="col">Volume</th>
+                    <th class="collection__table-departments" scope="col">24h&nbsp;%</th>
+                    <th class="collection__table-departments" scope="col">Floor Price</th>
+                    <th class="collection__table-departments" scope="col">Owners</th>
+                    <th class="collection__table-departments" scope="col">Items</th>
+                </tr>
+            </thead>
+            <tdody class="collection__content">
+                <tr class="collection__description">
+                    <th class="collection__table-heading collection__table-heading--first">
+                        <div class="collection__aftor">
+                            <img class="collection__afatar" src="img/user-icon-1.png" alt="">
+                            <div class="collection__aftor-descr">
+                                <p class="collection__aftor-name">Alex Ca.</p>
+                                <span class="collection__adressed">By Alex</span>
+                            </div>
+                        </div>
+                    </th >
+                    <td class="collection__price collection__price--first">8,456</td>
+                    <td class="collection__percent">+ 27.78%</td>
+                    <td class="collection__price collection__price--first">3,5</td>
+                    <td class="collection__quantity">2.2K</td>
+                    <td class="collection__quantity">500</td>
+                </tr>
+                <tr class="collection__description">
+                    <th class="collection__table-heading">
+                        <div class="collection__aftor">
+                            <img class="collection__afatar" src="img/user-icon-2.png" alt="">
+                            <div class="collection__aftor-descr">
+                                <p class="collection__aftor-name">Alex Ca.</p>
+                                <span class="collection__adressed">By Alex</span>
+                            </div>
+                        </div>
+                    </th>
+                    <td class="collection__price">4,780</td>
+                    <td class="collection__percent">+ 27.78%</td>
+                    <td class="collection__price">7,9</td>
+                    <td class="collection__quantity">3.4K</td>
+                    <td class="collection__quantity">900</td>
+                </tr>
+                <tr class="collection__description">
+                    <th class="collection__table-heading">
+                        <div class="collection__aftor">
+                            <img class="collection__afatar" src="img/user-icon-1.png" alt="">
+                            <div class="collection__aftor-descr">
+                                <p class="collection__aftor-name">Alex Ca.</p>
+                                <span class="collection__adressed">By Alex</span>
+                            </div>
+                        </div>
+                    </th>
+                    <td class="collection__price">8,456</td>
+                    <td class="collection__percent">+ 27.78%</td>
+                    <td class="collection__price">3,5</td>
+                    <td class="collection__quantity">2.2K</td>
+                    <td class="collection__quantity">500</td>
+                </tr>
+                <tr class="collection__description collection__description--last">
+                    <th class="collection__table-heading">
+                        <div class="collection__aftor">
+                            <img class="collection__afatar" src="img/user-icon-2.png" alt="">
+                            <div class="collection__aftor-descr">
+                                <p class="collection__aftor-name">Alex Ca.</p>
+                                <span class="collection__adressed">By Alex</span>
+                            </div>
+                        </div>
+                    </th>
+                    <td class="collection__price">4,780</td>
+                    <td class="collection__percent">+ 27.78%</td>
+                    <td class="collection__price">7,9</td>
+                    <td class="collection__quantity">3.4K</td>
+                    <td class="collection__quantity">900</td>
+                </tr>
+            </tdody>
+        </table>
+        <button class="explore-button">Explore All</button>
+    </div>
+   </section>
+   <section class="explore">
+    <div class="explore__container container">
+        <h2 class="explore__title">Explore Marketplace</h2>
+        <ul class="explore__list">
+            <li class="explore__item">
+                <button class="explore__button">All</button>
+            </li>
+            <li class="explore__item">
+                <button class="explore__button explore__button--catalog">Category</button>
+            </li>
+            <li class="explore__item">
+                <button class="explore__button explore__button--collection">Collection</button>
+            </li>
+            <li class="explore__item">
+                <button class="explore__button explore__button--dollar">Price</button>
+            </li>
+        </ul>
+        <div class="explore__cards">
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/Mask Group (7).png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">Sun-Glass</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.75</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/weekly-card1.png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">Sun-Glass</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.75</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/weekly-card4.png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">Sun-Glass</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.75</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/weekly-card2.png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">NuEvey</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.25</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/weekly-card2.png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">Sun-Glass</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.75</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/weekly-card4.png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">NuEvey</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.25</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/weekly-card1.png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">Sun-Glass</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.75</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+            <div class="explore__card card">
+                <div class="explore__top card__top">
+                    <img class="explore__img card__img" src="img/Mask Group (7).png" alt="crypto image">
+                    <time class="explore__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                </div>
+                <p class="explore__card-name card__name">Sun-Glass</p>
+                <div class="explore__card-content card__content">
+                    <div class="explore__card-price card__price-block">
+                        <span class="explore__descr card__descr">Current bid</span>
+                        <span class="explore__price card__price">1.75</span>
+                    </div>
+                    <button class="explore__btn card__btn">PLACE BID</button>
+                </div>
+            </div>
+        </div>
+        <button class="explore-button explore-button--section-explore">Explore All</button>
+    </div>
+   </section>
+   <section class="advanteges">
+        <div class="advanteges__container container">
+            <h2 class="advanteges__title"><span class="advanteges__text">Just Unleash&nbsp;&mdash;</span>Your Inner Collector</h2>
+            <ul class="advanteges__list">
+                <li class="advanteges__item">Best Seller All Around World</li>
+                <li class="advanteges__item">$2M+ Transections Every Day</li>
+                <li class="advanteges__item">Secure Transactions</li>
+                <li class="advanteges__item">Exclusive Collections From Sellers</li>
+                <li class="advanteges__item">Easy Buying and Selling</li>
+                <li class="advanteges__item">BeJoin Our Community</li>
+            </ul>
+            <a class="advanteges__link" href="#">Explore More</a>
+        </div>
+   </section>
+   <section class="create">
+    <div class="create__container container">
+        <div class="create__card">
+            <div class="create__content">
+                <h2 class="create__title">Create and Sell NFTs</h2>
+                <p class="create__text">World&rsquo;s Largest NFT Place</p>
+                <div class="create__buttons">
+                    <div class="create__btn create__btn--white">Explore More</div>
+                    <div class="create__btn create__btn--dark">Sell Artwork</div>
+                </div>
+            </div>
+            <img class="create__img" src="img/Сочетание 4.png">
+        </div>
+    </div>
+   </section>
+   <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__block footer__block--first">
+            <a class="footer__logo" href="#"><img class="footer__logo-image" src="img/Logo (2).svg"></a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Term & Conditions</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__block">
+            <p class="footer__coperide">&copy;&nbsp;2023&nbsp;EATLY All Rights Reserved.</p>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Group 888.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 7.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 13.svg">   
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 6.svg">
+                </li>
+            </ul>
+        </div>
+    </div>
+   </footer>
+   <!-- <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script> -->
+</body>
+</html>

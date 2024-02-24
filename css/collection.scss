@@ -1,0 +1,235 @@
+:root{
+    --dark-color: #141416;  
+}
+
+.collection{
+    &__container{
+        padding: 255px 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+
+    }
+
+    &__card{
+        padding: 26px 24px 26px 19px;
+
+        background: rgb(255, 255, 255);
+        border-radius: 16px;
+
+        position:absolute;
+
+        top: -134px;
+        left: 963px;
+
+        max-width: 365px;
+
+        box-shadow: 10px 10px 50px 0px rgba(20, 20, 22, 0.1);
+    }
+
+    &__table-heading{
+        display: flex;
+    }
+
+    &__aftor{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+
+        margin-bottom: 30px; 
+        padding-top: 45px;
+    }
+
+    &__card-top{
+        display: flex;
+        gap: 156px;
+
+        margin-bottom: 34px;
+
+        margin-right: 15px;
+    }
+
+    &__card-title{
+        color: var(--dark-color);
+        font-family: Poppins;
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 135%;
+        letter-spacing: 0.2px;
+
+        min-width: 161px;
+    }
+
+    &__user{
+        display: flex;
+        gap: 22px;
+    }
+
+    &__card-btn{
+       background: none; 
+       border: 0;
+       cursor: pointer;
+    }
+
+    &__aftor-descr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        max-width: 100px;  
+    } 
+
+    &__users-stat{
+        display: flex;
+        flex-direction: column;
+
+        row-gap: 16px;
+    }
+
+    &__user-stat{
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    &__user{
+        display: flex;
+        gap: 50px;
+    }
+
+    &__card-image-numb{
+        position: relative;
+    }
+
+    &__img-count{
+        background-color: #ffffff;
+        padding: 1px 8.5px;
+        line-height: 150%;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 25px;
+        right: -6px;
+    }
+
+    &__aftor-name{
+        font-size: 15.36px;
+        font-weight: 500;
+        line-height: 140%;
+        min-width: 150px;
+        
+    }
+
+    &__title{
+        display: flex;
+        justify-content: center;
+        color: var(--dark-color);
+        font-family: Poppins;
+        font-size: 45.04px;
+        font-weight: 600;
+        line-height: 44.75px;
+        letter-spacing: 0px;
+
+        margin-bottom: 90px;
+    }
+
+    &__description{
+        border-bottom: 1.69px solid rgb(235, 233, 233);
+        
+        &--last{
+            border-bottom: 0;
+        }
+    }
+
+
+    &__table-departments{
+        color: rgb(147, 152, 154);
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 1%;
+
+        text-align: left;
+
+
+        &:first-child{
+            width: 35%;
+            text-align: left;
+        }
+    } 
+
+    &__aftor-name{
+        color: var(--dark-color);
+        font-family: Poppins;
+        font-size: 28.01px;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0px;
+    }
+
+    &__adressed{
+        color: rgb(100, 116, 139);
+        font-family: Poppins;
+        font-size: 22.76px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0px;
+
+        vertical-align: middle;
+    }
+
+    &__price{
+        background-image: url(../img/weekly-card-price.svg);
+        background-repeat: no-repeat;
+        background-position: left center;
+
+        padding-left: 20px;
+
+        color: var(--dark-color);
+        font-family: Poppins;
+        font-size: 24.51px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0px;
+
+        vertical-align: middle;
+
+        &--first{
+            background-position: left center;
+        }
+    }
+
+    &__percent{
+        color: rgb(16, 195, 82);
+        font-family: Poppins;
+        font-size: 24.51px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 1%;
+
+        vertical-align: middle;
+
+        &--minus{
+            color: #e23333;
+        }
+    }
+
+    &__quantity{
+        color: rgb(1, 1, 1);
+        font-family: Poppins;
+        font-size: 23.65px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 1%;
+
+        vertical-align: middle;
+    }
+}
+
+.collection__table-heading--first .collection__aftor:first-child{
+    margin-top: 50px;
+}

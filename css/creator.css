@@ -1,0 +1,68 @@
+.creator__container {
+  padding-bottom: 160px;
+}
+.creator__title {
+  color: rgb(195, 195, 196);
+  font-family: Poppins;
+  font-size: 31.06px;
+  font-weight: 600;
+  line-height: 27.61px;
+  letter-spacing: 0%;
+  margin-bottom: 44px;
+}
+.creator__img {
+  width: 187px;
+  margin-bottom: 7px;
+  height: 183px;
+}
+.creator__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.creator__card {
+  border-radius: 17.45px;
+  box-shadow: 17.45px 11.63px 59.61px 0px rgba(97, 97, 97, 0.25);
+  background-color: rgb(255, 255, 255);
+  padding: 14px;
+}
+.creator__card-check {
+  color: rgb(20, 20, 22);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  padding-right: 18px;
+  background-image: url(../img/Vector\ \(10\).svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-bottom: 6px;
+  max-width: 74px;
+  margin-bottom: 7px;
+}
+.creator__card-name {
+  color: rgb(20, 20, 22);
+  font-family: Poppins;
+  font-size: 17.39px;
+  font-weight: 600;
+  line-height: 27.32px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+.creator__card-descr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.creator__card-follower {
+  color: rgb(136, 136, 136);
+  font-family: Poppins;
+  font-size: 12.87px;
+  font-weight: 600;
+  line-height: 18.59px;
+  letter-spacing: 0%;
+  padding-left: 16px;
+  background-image: url(../img/Vector\ \(11\).svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}/*# sourceMappingURL=creator.css.map */
