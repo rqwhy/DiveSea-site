@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiveSea</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/footet.css">
+    <link rel="stylesheet" href="css/creator.css">
+    <link rel="stylesheet" href="css/make.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="js/index.js" defer></script>
+    <script src="js/modal-window.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/select.js" defer></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+   <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img class="header__logo-image" src="img/header_logo.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">discover</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">creators</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">sell</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">stats</a>
+                    </li>
+                </ul>
+            </nav>
+            <input class="header__input" type="search" placeholder="Search Art Work&nbsp;/ Creator">
+            <button class="header__btn">Connect Wallet</button>
+        </div>
+   </header>
+   <main>
+    <section class="make">
+        <h2 class="make__title">Create Your NFT</h2>
+        <div class="make__container container">
+            <div class="make__disainer">
+                <div class="make__input-block">
+                    <h4 class="make__name">Name</h4>
+                    <input class="make__input" type="text" placeholder="ArtWork Name">
+                </div>
+                <div class="make__input-block">
+                    <h4 class="make__name">Description</h4>
+                    <textarea class="make__input make__input--descr" type="text" placeholder="Enter Your Description"></textarea>
+                </div>
+                <div class="make__subdisainer">
+                    <div class="make__input-block">
+                        <h4 class="make__name">Royalty</h4>
+                        <select class="make__select" name="dis">
+                            <option class="make__option" value="Royalty">Royalty</option>
+                            <option class="make__option" value="Not Royalty">Not Royalty</option>
+                        </select>
+                    </div>
+                    <div class="make__input-block">
+                        <h4 class="make__name">Size</h4>
+                        <input class="make__input make__input--mini" type="text" placeholder="Ex - 100 x 100">
+                    </div>
+                </div>
+                <div class="make__input-block">
+                    <h4 class="make__name">Tags</h4>
+                    <input class="make__input" type="text" placeholder="Beautiful Castle, Monkeys ETC">
+                </div>
+                <div class="make__subdisainer">
+                    <div class="make__input-block">
+                        <h4 class="make__name">Price</h4>
+                        <div class="make__input-wrapper">
+                            <select class="make__select-currency" name="dis">
+                                <option class="make__option" value="ETH">ETH</option>
+                                <option class="make__option" value="BTC">BTC</option>
+                            </select>
+                            <input class="make__input make__input--currency" type="text" placeholder="Ex - 100 x 100">
+                        </div>
+                    </div>
+                    <div class="make__input-block">
+                        <h4 class="make__name">In Stock</h4>
+                        <select class="make__select make__select--numb" name="dis">
+                            <option class="make__option" value="Royalty">001</option>
+                            <option class="make__option" value="Not Royalty">001</option>
+                            <option class="make__option" value="Not Royalty">002</option>
+                            <option class="make__option" value="Not Royalty">003</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="make__lable-block">
+                    <div class="make__lable-descrs">
+                        <p class="make__name">Put On Sale</p>
+                        <p class="make__lable-descr">People Will Bids On Your NFT Project</p>
+                    </div>
+                    <input class="make__lable-input" type="checkbox" id="switch1" />
+                    <label class="make__lable" for="switch1">Toggle</label>
+                </div>
+                <div class="make__lable-block make__lable-block--second">
+                    <div class="make__lable-descrs">
+                        <p class="make__name">Direct Sale</p>
+                        <p class="make__lable-descr">No Bids - Only Direct Salling</p>
+                    </div>
+                    <input class="make__lable-input" type="checkbox" id="switch2" />
+                    <label class="make__lable" for="switch2">Toggle</label>
+                </div>
+                <button class="make__button make__button--create">Create</button>
+            </div>
+            <div class="make__file-block">
+                <form class="make__form" action="">
+                    <div class="inputwrapper make__inputwrapper">
+            
+                        <input name="file" type="file" id="inputfile" class="input inputfile make__file" multiple>
+                        <span class="make__btn-text inputfile-button-text">PNG, GIF, WEBP, MP4 or MP3. Max 1Gb.</span>
+                        </label>
+                    </div>
+                </form>
+                <button class="make__button make__button--upload">Upload</button>
+            </div>
+        </div>
+    </section>
+   </main>
+   <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__block footer__block--first">
+            <a class="footer__logo" href="#"><img class="footer__logo-image" src="img/Logo (2).svg"></a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Term & Conditions</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__block">
+            <p class="footer__coperide">&copy;&nbsp;2023&nbsp;EATLY All Rights Reserved.</p>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Group 888.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 7.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 13.svg">   
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 6.svg">
+                </li>
+            </ul>
+        </div>
+    </div>
+   </footer>

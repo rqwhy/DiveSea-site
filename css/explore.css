@@ -1,0 +1,77 @@
+.explore__container {
+  padding-bottom: 102px;
+  border-bottom: 0.71px solid rgb(203, 203, 203);
+}
+.explore__title {
+  color: rgb(20, 20, 22);
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 26.92px;
+  letter-spacing: 0px;
+  margin-bottom: 66px;
+  display: flex;
+  justify-content: center;
+}
+.explore__list {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  margin-bottom: 100px;
+}
+.explore__button {
+  box-sizing: border-box;
+  border: 2.21px solid rgb(20, 20, 22);
+  border-radius: 13.26px;
+  background: transparent;
+  padding: 17px;
+  color: rgb(26, 32, 44);
+  font-family: Poppins;
+  font-size: 15.47px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.explore__button--catalog {
+  background-image: url(../img/catalog.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 19px;
+  padding: 17px 17px 17px 32px;
+}
+.explore__button--collection {
+  background-image: url(../img/wave.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 19px;
+  padding: 17px 17px 17px 32px;
+}
+.explore__button--dollar {
+  background-image: url(../img/doollar.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 19px;
+  padding: 17px 17px 17px 32px;
+}
+.explore__button:focus {
+  outline: none;
+}
+.explore__button:hover {
+  color: #9c9c9c;
+}
+.explore__button:active {
+  color: #9c9c9c;
+  background-color: #000000;
+  outline: 1px solid #9c9c9c;
+}
+.explore__button:focus-visible {
+  outline-offset: 7px;
+  outline: 1.5px solid #acadb9;
+  border-radius: 6px;
+}
+.explore__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 70px;
+}/*# sourceMappingURL=explore.css.map */

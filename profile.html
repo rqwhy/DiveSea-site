@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiveSea</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/footet.css">
+    <link rel="stylesheet" href="css/creator.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="js/index.js" defer></script>
+    <script src="js/modal-window.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/select.js" defer></script>
+    <script src="js/switch.js" defer></script>
+</head>
+<body>
+   <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img class="header__logo-image" src="img/header_logo.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">discover</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">creators</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">sell</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">stats</a>
+                    </li>
+                </ul>
+            </nav>
+            <input class="header__input" type="search" placeholder="Search Art Work&nbsp;/ Creator">
+            <button class="header__btn">Connect Wallet</button>
+        </div>
+   </header>
+   <main class="main">
+    <section class="profile">
+        <div class="profile__container container">
+            <div class="profile__cover"></div>
+            <div class="profile__content">
+                <div class="profile-left">
+                    <img class="profile-left__avatar-img" src="img/Сочетание 1 (1).png">
+                    <div class="profile-left__aftor-content">
+                        <div class="profile-left__data">
+                            <h3 class="profile-left__aftor-name">Harry K.</h3>
+                            <span class="profile-left__aftor-teg">@Harryknft</span>
+                        </div>
+                        <button class="profile-left__btn">Follow +</button>
+                    </div>
+                    <div class="profile-left__info">
+                        <div class="profile-left__counts">
+                            <div class="profile-left__count">
+                                <p class="profile-left__descr">86 ETH</p>
+                                <p class="profile-left__text">Total Sales</p>
+                            </div>
+                            <div class="profile-left__count">
+                                <p class="profile-left__descr">12K</p>
+                                <p class="profile-left__text">Followers</p>
+                            </div>
+                            <div class="profile-left__count">
+                                <p class="profile-left__descr">587</p>
+                                <p class="profile-left__text">Followings</p>
+                            </div>
+                        </div>
+                        <h3 class="profile-left__bio">Bio</h3>
+                        <span class="profile-left__bio">the artist who transforms the intangible into priceless assets with their incredible NFT creations. From stunning visuals to&nbsp;mind-bending concepts,</span>
+                    </div>
+                    <ul class="profile-left__list">
+                        <li class="profile-left__item">
+                            <img class="profile-left__icon" src="img/Group 888 (1).svg">
+                        </li>
+                        <li class="profile-left__item">
+                            <img class="profile-left__icon" src="img/Path 7 (1).svg">
+                        </li>
+                        <li class="profile-left__item">
+                            <img class="profile-left__icon" src="img/Path 13 (1).svg">   
+                        </li>
+                        <li class="profile-left__item">
+                            <img class="profile-left__icon" src="img/Path 6 (1).svg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile-right">
+                    <div class="profile-right__shifts">
+                        <button class="profile-right__shift profile-right__shift--collection" onclick="switchVisible1();" id="collection">Collection</button>
+                        <button class="profile-right__shift profile-right__shift--activity" onclick="switchVisible();" >Activity</button>
+                    </div>
+                    <div class="profile-right__cards" id="Div1">
+                        <div class="profile-right__card card">
+                            <div class="profile-right__top card__top">
+                                <img class="profile-right__img card__img" src="img/Mask Group (7).png" alt="crypto image">
+                                <time class="profile-right__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                            </div>
+                            <p class="profile-right__card-name card__name">Sun-Glass</p>
+                            <div class="profile-right__card-content card__content">
+                                <div class="profile-right__card-price card__price-block">
+                                    <span class="profile-right__descr card__descr">Current bid</span>
+                                    <span class="profile-right__price card__price">1.75</span>
+                                </div>
+                                <button class="profile-right__btn card__btn">PLACE BID</button>
+                            </div>
+                        </div>
+                        <div class="profile-right__card card">
+                            <div class="profile-right__top card__top">
+                                <img class="profile-right__img card__img" src="img/weekly-card1.png" alt="crypto image">
+                                <time class="profile-right__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                            </div>
+                            <p class="profile-right__card-name card__name">Sun-Glass</p>
+                            <div class="profile-right__card-content card__content">
+                                <div class="profile-right__card-price card__price-block">
+                                    <span class="profile-right__descr card__descr">Current bid</span>
+                                    <span class="profile-right__price card__price">1.75</span>
+                                </div>
+                                <button class="profile-right__btn card__btn">PLACE BID</button>
+                            </div>
+                        </div>
+                        <div class="profile-right__card card">
+                            <div class="profile-right__top card__top">
+                                <img class="profile-right__img card__img" src="img/weekly-card4.png" alt="crypto image">
+                                <time class="profile-right__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                            </div>
+                            <p class="profile-right__card-name card__name">Sun-Glass</p>
+                            <div class="profile-right__card-content card__content">
+                                <div class="profile-right__card-price card__price-block">
+                                    <span class="profile-right__descr card__descr">Current bid</span>
+                                    <span class="profile-right__price card__price">1.75</span>
+                                </div>
+                                <button class="profile-right__btn card__btn">PLACE BID</button>
+                            </div>
+                        </div>
+                        <div class="profile-right__card card">
+                            <div class="profile-right__top card__top">
+                                <img class="profile-right__img card__img" src="img/weekly-card2.png" alt="crypto image">
+                                <time class="profile-right__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                            </div>
+                            <p class="profile-right__card-name card__name">NuEvey</p>
+                            <div class="profile-right__card-content card__content">
+                                <div class="profile-right__card-price card__price-block">
+                                    <span class="profile-right__descr card__descr">Current bid</span>
+                                    <span class="profile-right__price card__price">1.25</span>
+                                </div>
+                                <button class="profile-right__btn card__btn">PLACE BID</button>
+                            </div>
+                        </div>
+                        <div class="profile-right__card card">
+                            <div class="profile-right__top card__top">
+                                <img class="profile-right__img card__img" src="img/weekly-card2.png" alt="crypto image">
+                                <time class="profile-right__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                            </div>
+                            <p class="profile-right__card-name card__name">Sun-Glass</p>
+                            <div class="profile-right__card-content card__content">
+                                <div class="profile-right__card-price card__price-block">
+                                    <span class="profile-right__descr card__descr">Current bid</span>
+                                    <span class="profile-right__price card__price">1.75</span>
+                                </div>
+                                <button class="profile-right__btn card__btn">PLACE BID</button>
+                            </div>
+                        </div>
+                        <div class="profile-right__card card">
+                            <div class="profile-right__top card__top">
+                                <img class="profile-right__img card__img" src="img/weekly-card4.png" alt="crypto image">
+                                <time class="profile-right__time card__time" datetime="7h 9m 12s">07h 09m 12s</time>
+                            </div>
+                            <p class="profile-right__card-name card__name">NuEvey</p>
+                            <div class="profile-right__card-content card__content">
+                                <div class="profile-right__card-price card__price-block">
+                                    <span class="profile-right__descr card__descr">Current bid</span>
+                                    <span class="profile-right__price card__price">1.25</span>
+                                </div>
+                                <button class="profile-right__btn card__btn">PLACE BID</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile__bottom" id="Div2">
+                        <div class="profile-right__selects">
+                            <div class="profile-right__select-block">
+                                <select class="profile-right__select profile-right__select--sales" name="Sales" id="">
+                                    <option class="profile-right__option" value="">Sales</option>
+                                    <option class="profile-right__option" value="">"cont"</option>
+                                    <option class="profile-right__option" value="">"cont"</option>
+                                    <option class="profile-right__option" value="">"cont"</option>
+                                </select>
+                            </div>
+                            <div class="profile-right__select-block">
+                                <select class="profile-right__select profile-right__select--option" name="Sales" id="">
+                                    <option class="profile-right__option" value="">All Chains</option>
+                                    <option class="profile-right__option" value="">"cont"</option>
+                                    <option class="profile-right__option" value="">"cont"</option>
+                                    <option class="profile-right__option" value="">"cont"</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="profile-right__pr-card">
+                            <div class="profile-right__top">
+                                <div class="profile-right__user">
+                                    <img class="profile-right__avatar" src="img/Rectangle 283 (1).svg">
+                                    <div class="profile-right__user-content">
+                                        <p class="profile-right__name">NeuVey</p>
+                                        <p class="profile-right__subname">JenifferS</p>
+                                    </div>
+                                </div>
+                                <div class="profile-right__pay-content">
+                                    <p class="profile-right__action">Sale</p>
+                                    <select class="profile-right__select-value card__price" name="Sales" id="">
+                                        <option class="profile-right__value--eth card__price" value="">16,4</option>
+                                        <option class="profile-right__value--btc" value="">0,09</option>
+                                    </select>
+                                    <span class="profile-right__update profile-left__bio">6 Minutes ago</span>
+                                </div>
+                            </div>
+                            <div class="profile-right__bottom">
+                                <div class="profile-left__counts profile-right__counts">
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">USD Price</p>
+                                        <p class="profile-right__desc profile-right__desc--dollar">$19K</p>
+                                    </div>
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">Quantity</p>
+                                        <p class="profile-right__desc profile-right__desc--quenty">14.9K</p>
+                                    </div>
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">floor price</p>
+                                        <p class="profile-right__desc profile-right__desc--eth card__price">16,4</p>
+                                    </div>
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">traded</p>
+                                        <p class="profile-right__desc profile-right__desc--eth card__price">26,4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-right__pr-card">
+                            <div class="profile-right__top">
+                                <div class="profile-right__user">
+                                    <img class="profile-right__avatar" src="img/Rectangle 283 (2).svg">
+                                    <div class="profile-right__user-content">
+                                        <p class="profile-right__name">NeuVey</p>
+                                        <p class="profile-right__subname">JenifferS</p>
+                                    </div>
+                                </div>
+                                <div class="profile-right__pay-content">
+                                    <p class="profile-right__action">Sale</p>
+                                    <select class="profile-right__select-value card__price" name="Sales" id="">
+                                        <option class="profile-right__value--eth card__price" value="">16,4</option>
+                                        <option class="profile-right__value--btc" value="">0,09</option>
+                                    </select>
+                                    <span class="profile-right__update profile-left__bio">6 Minutes ago</span>
+                                </div>
+                            </div>
+                            <div class="profile-right__bottom">
+                                <div class="profile-left__counts profile-right__counts">
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">USD Price</p>
+                                        <p class="profile-right__desc profile-right__desc--dollar">$19K</p>
+                                    </div>
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">Quantity</p>
+                                        <p class="profile-right__desc profile-right__desc--quenty">14.9K</p>
+                                    </div>
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">floor price</p>
+                                        <p class="profile-right__desc profile-right__desc--eth card__price">16,4</p>
+                                    </div>
+                                    <div class="profile-left__count">
+                                        <p class="profile-left__text">traded</p>
+                                        <p class="profile-right__desc profile-right__desc--eth card__price">26,4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+   </main>
+   <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__block footer__block--first">
+            <a class="footer__logo" href="#"><img class="footer__logo-image" src="img/Logo (2).svg"></a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Term & Conditions</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__block">
+            <p class="footer__coperide">&copy;&nbsp;2023&nbsp;EATLY All Rights Reserved.</p>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Group 888.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 7.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 13.svg">   
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 6.svg">
+                </li>
+            </ul>
+        </div>
+    </div>
+   </footer>

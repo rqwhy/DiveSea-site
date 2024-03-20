@@ -1,0 +1,119 @@
+.meet{
+    &__container{
+        padding: 155px 0 380px;
+    }
+
+    &__title{
+        color: rgb(20, 20, 22);
+        font-family: Poppins;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0px;
+
+        display: flex;
+        justify-content: center;
+
+        margin-bottom: 130px;
+    }
+
+    &__alt{
+        cursor: pointer;
+    }
+
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        row-gap: 84px;
+    }
+
+    &__card{
+        border-radius: 25px;
+
+        box-shadow: 30px 15px 80px 0px rgba(191, 191, 191, 0.6);
+        background-color: rgb(242, 242, 242);
+
+        max-width: 370px;
+
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    &__content{
+        padding: 0 26px;
+    }
+
+    &__image{
+        border-radius: 25px 25px 0 0;
+        position: relative;
+
+        margin-bottom: 69px;
+
+        max-height: 210px;
+    }
+
+    &__user{
+        position: relative;
+    }
+
+    &__user-ava{
+        position: absolute;
+        bottom: 43px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__alt-btn{
+        border: 0;
+        background-color: transparent;
+        padding: 0;
+
+        &:focus-visible {
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__user-name{
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 23.72px;
+        font-weight: 600;
+        line-height: 33.61px;
+        letter-spacing: 0%;
+
+        margin-bottom: 10px;
+
+        background-image: url(../img/Vector\ \(10\).svg);
+        background-repeat: no-repeat;
+        background-position: 211px 10px;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 33px;
+    }
+
+    &__count{
+        color: rgb(20, 20, 22);
+        font-family: Poppins;
+        font-size: 17.79px;
+        font-weight: 500;
+        line-height: 25.7px;
+        margin-bottom: 5px;
+    }
+
+    &__appor{
+        color: rgb(130, 130, 130);
+        font-family: Poppins;
+        font-size: 12.85px;
+        font-weight: 400;
+        line-height: 15.82px;
+        letter-spacing: 0%;
+    }
+}

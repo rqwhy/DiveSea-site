@@ -1,0 +1,135 @@
+.header {
+  padding: 45px 0 55px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  margin-right: 57px;
+  transition: transform 0.2s ease-in-out;
+}
+.header__logo:focus {
+  outline: none;
+}
+.header__logo:hover {
+  transform: scale(105%);
+}
+.header__logo:focus-visible {
+  outline-offset: 7px;
+  outline: 1.5px solid #acadb9;
+  border-radius: 6px;
+}
+.header__nav {
+  margin-right: 117px;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 53px;
+}
+.header__link {
+  color: rgb(96, 96, 96);
+  font-family: Inter;
+  font-size: 17.83px;
+  font-weight: 500;
+  line-height: 26.74px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+.header__link:focus {
+  outline: none;
+}
+.header__link:hover {
+  color: #c5c5c5;
+}
+.header__link:active {
+  color: #a54d12;
+}
+.header__link:focus-visible {
+  outline-offset: 7px;
+  outline: 1.5px solid #acadb9;
+  border-radius: 6px;
+}
+.header__input {
+  margin-right: 30px;
+  border-radius: 15px;
+  border: 0;
+  background: rgb(237, 237, 237);
+  padding: 21px 23px 21px 70px;
+  min-width: 348px;
+  background-image: url(../img/header-icon.png);
+  background-repeat: no-repeat;
+  background-position: 23px center;
+}
+.header__input::-moz-placeholder {
+  color: rgb(194, 195, 203);
+  font-family: Poppins;
+  font-size: 15.71px;
+  font-weight: 500;
+  line-height: 117.5%;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.header__input::placeholder {
+  color: rgb(194, 195, 203);
+  font-family: Poppins;
+  font-size: 15.71px;
+  font-weight: 500;
+  line-height: 117.5%;
+  letter-spacing: -2%;
+  text-align: left;
+}
+.header__input:focus {
+  outline: none;
+}
+.header__input:hover {
+  color: #c5c5c5;
+}
+.header__input:focus-visible {
+  outline: 1.5px solid #000000;
+  border-radius: 15px;
+}
+.header__input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-image: url(../img/hero-navig-next.svg);
+  background-size: 20px 20px;
+}
+.header__btn {
+  padding: 16.5px 24px;
+  border: 0;
+  border-radius: 16.17px;
+  background: rgb(20, 20, 22);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16.17px;
+  font-weight: 500;
+  line-height: 24.26px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+.header__btn:focus {
+  outline: none;
+}
+.header__btn:hover {
+  color: #9c9c9c;
+}
+.header__btn:active {
+  color: #9c9c9c;
+  background-color: #ffffff;
+  outline: 1px solid #000000;
+}
+.header__btn:focus-visible {
+  outline-offset: 7px;
+  outline: 1.5px solid #acadb9;
+  border-radius: 6px;
+}/*# sourceMappingURL=header.css.map */

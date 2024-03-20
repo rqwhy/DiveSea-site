@@ -1,0 +1,111 @@
+.create{
+    &__container{
+        padding-bottom: 102px;
+    }
+
+    &__card{
+        border-radius: 30px;
+        background: rgb(20, 20, 22);
+
+        padding: 31px 22px 16px 66px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title{
+        color: rgb(255, 255, 255);
+
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 1%;
+
+        margin-bottom: 12px;
+    }
+
+    &__text{
+        color: rgb(213, 213, 213);
+
+        font-size: 20.27px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 1%;
+
+        margin-bottom: 50px;
+    }
+
+    &__buttons{
+        display: flex;
+        gap: 30px;
+    }
+
+    &__btn{
+        border-radius: 12.2px;
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 1%;
+        padding: 20px 25px;
+        cursor: pointer;
+        min-width: 130px;
+
+        &--white{
+            background-color: rgb(255, 255, 255);
+            color: rgb(20, 20, 22);
+
+            &:focus{
+                outline: none;
+            }
+    
+            &:hover{
+                color: #9c9c9c;
+            }       
+    
+            &:active{
+                color: #9c9c9c;
+                background-color: #000000;
+                outline: 1px solid #9c9c9c;
+            }
+    
+            &:focus-visible{
+                outline-offset: 7px;
+                outline: 1.5px solid #acadb9;
+                border-radius: 6px;
+            }
+        }
+
+        &--dark{
+            color: #ffffff;
+            background-color: transparent;
+            border: 1.5px solid rgb(255, 255, 255);
+
+            transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #9c9c9c;
+        }       
+
+        &:active{
+            color: #9c9c9c;
+            background-color: #ffffff;
+            outline: 1px solid #000000;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+        }
+    }
+
+    &__img{
+        max-width: 396px;
+    }
+}

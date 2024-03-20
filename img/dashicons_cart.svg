@@ -1,0 +1,14 @@
+<svg width="21.000000" height="21.000000" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5_11113">
+			<rect id="dashicons:cart" width="21.284246" height="21.284246" transform="translate(-0.605469 -0.458984)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="dashicons:cart" width="21.284246" height="21.284246" transform="translate(-0.605469 -0.458984)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip5_11113)">
+		<path id="Vector" d="M5.77 13.37L15.35 13.37C15.94 13.37 16.42 13.85 16.42 14.44C16.42 15.02 15.94 15.5 15.35 15.5L4.71 15.5C4.13 15.5 3.65 15.02 3.65 14.44L3.65 3.79L1.52 3.79C0.93 3.79 0.45 3.31 0.45 2.73C0.45 2.14 0.93 1.66 1.52 1.66L4.71 1.66C5.3 1.66 5.77 2.14 5.77 2.73L5.77 4.86L19.61 4.86L15.35 12.31L5.77 12.31L5.77 13.37ZM5.24 16.56C6.13 16.56 6.84 17.28 6.84 18.16C6.84 19.04 6.13 19.76 5.24 19.76C4.36 19.76 3.65 19.04 3.65 18.16C3.65 17.28 4.36 16.56 5.24 16.56ZM14.82 16.56C15.7 16.56 16.42 17.28 16.42 18.16C16.42 19.04 15.7 19.76 14.82 19.76C13.94 19.76 13.23 19.04 13.23 18.16C13.23 17.28 13.94 16.56 14.82 16.56Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

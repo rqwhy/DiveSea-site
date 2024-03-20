@@ -1,0 +1,96 @@
+.explore{
+    &__container{
+        padding-bottom: 102px;
+        border-bottom:  0.71px solid rgb(203, 203, 203);;
+    }
+
+    &__title{
+        color: rgb(20, 20, 22);
+        font-family: Poppins;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 26.92px;
+        letter-spacing: 0px;
+
+        margin-bottom: 66px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: center;
+        gap: 38px;
+        margin-bottom: 100px;
+    }
+
+    &__button{
+        box-sizing: border-box;
+        border: 2.21px solid rgb(20, 20, 22);
+        border-radius: 13.26px;
+        background: transparent;
+        padding: 17px;
+
+        color: rgb(26, 32, 44);
+        font-family: Poppins;
+        font-size: 15.47px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+
+        cursor: pointer;
+
+        &--catalog{
+            background-image: url(../img/catalog.svg);
+            background-repeat: no-repeat;
+            background-position: 10px 19px;
+
+            padding: 17px 17px 17px 32px;
+        }
+
+        &--collection{
+            background-image: url(../img/wave.svg);
+            background-repeat: no-repeat;
+            background-position: 10px 19px;
+
+            padding: 17px 17px 17px 32px;
+        }
+
+        &--dollar{
+            background-image: url(../img/doollar.svg);
+            background-repeat: no-repeat;
+            background-position: 10px 19px;
+
+            padding: 17px 17px 17px 32px;
+        }
+
+        transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #9c9c9c;
+        }       
+
+        &:active{
+            color: #9c9c9c;
+            background-color: #000000;
+            outline: 1px solid #9c9c9c;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 40px;
+        row-gap:70px;
+    }
+}

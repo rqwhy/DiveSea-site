@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiveSea</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="css/footet.css">
+    <link rel="stylesheet" href="css/creator.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="js/index.js" defer></script>
+    <script src="js/modal-window.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/select.js" defer></script>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+   <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo">
+                <img class="header__logo-image" src="img/header_logo.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#">discover</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">creators</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">sell</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#">stats</a>
+                    </li>
+                </ul>
+            </nav>
+            <input class="header__input" type="search" placeholder="Search Art Work&nbsp;/ Creator">
+            <button class="header__btn">Connect Wallet</button>
+        </div>
+   </header>
+   <section class="detail">
+    <div class="detail-overlay"></div>
+        <div class="detail__container container">
+            <div class="detail__btn-content">
+               <a class="detail__link" href="/index.html"></a>
+               <span class="detail__btn-text">Product Detail</span>
+            </div>
+            <div class="detail__card">
+                <img class="detail__img" src="img/Rectangle 275.png" alt="image nft">
+                <div class="detail__card-content">
+                    <h2 class="detail__title">Project Sun-Glass</h2>
+                    <p class="detail__descr">A&nbsp;collection of&nbsp;10,000 utility-enabled PFPs that feature a&nbsp;richly diverse and unique pool of&nbsp;rarity-powered traits.</p>
+                    <div class="detail__aftors">
+                        <div class="detail__aftor">
+                            <img class="detail__card-ator-img" src="img/Ellipse 28.svg" alt="">
+                            <div class="detail__aftor-info">
+                                <span class="detail__purpose">Created by</span>
+                                <p class="detail__aftor-name">Perperzon</p>
+                            </div>
+                        </div>
+                        <div class="detail__aftor">
+                            <img class="detail__card-ator-img" src="img/Ellipse 29.svg" alt="">
+                            <div class="detail__aftor-info">
+                                <span class="detail__purpose">Owned by</span>
+                                <p class="detail__aftor-name">Videz</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail__card-descr">
+                        <div class="detail__decsr-block">
+                            <span class="detail__purpose">Current Bid</span>
+                            <span class="detail__price">1.75</span>
+                        </div>
+                        <div class="detail__decsr-block">
+                            <span class="detail__purpose">End in</span>
+                            <data class="detail__date">Jun&nbsp;17, 2023&nbsp;at 05:08</data>
+                        </div>
+                    </div>
+                    <button class="detail__btn" data-path="popup">Place Bid</button>
+                    <div class="detail-modals modal" data-target="popup">
+                        <h3 class="detail-modals__title">History of Bid</h3>
+                        <data class="detail-modals__data">Oct 14, 2022</data>
+                        <div class="detail-modals__card">
+                            <img class="detail-modals__img" src="img/Сочетание 5.svg">
+                            <div class="detail-modals__user-info">
+                                <p class="detail-modals__usernmae">Repo</p>
+                                <data class="detail-modals__userdate">May 17, 2022 at 12:08</data>
+                            </div>
+                            <span class="detail-modals__price">1.75</span>
+                        </div>
+                        <div class="detail-modals__card">
+                            <img class="detail-modals__img" src="img/Сочетание 6.svg">
+                            <div class="detail-modals__user-info">
+                                <p class="detail-modals__usernmae">Travo</p>
+                                <data class="detail-modals__userdate">May 16, 2022 at 12:08</data>
+                            </div>
+                            <span class="detail-modals__price">1.57</span>
+                        </div>
+                        <div class="detail-modals__card">
+                            <img class="detail-modals__img" src="img/Сочетание 7.svg">
+                            <div class="detail-modals__user-info">
+                                <p class="detail-modals__usernmae">Jennifer</p>
+                                <data class="detail-modals__userdate">May 16, 2022 at 6:08</data>
+                            </div>
+                            <span class="detail-modals__price">1.44</span>
+                        </div>
+                        <div class="detail-modals__bottom">
+                            <p class="detail-modals__text">Your Bid</p>
+                            <form class="detail__form" action="#">
+ 
+                                <div class="detail__box select-box">
+                                  
+                                  <label for="select-box1" class="label select-box1 detail__select"> <span class="label-desc">Choose Cur</span></label>
+                                  <select id="select-box1" class="select">
+                                    <option class="detail__option" value="Choice 1" selected>ETH</option>
+                                    <option class="detail__option" value="Choice 2" selected>BTC</option>
+                                  </select>
+                                  
+                                </div>
+                                 
+                            </form> 
+                            <!-- <select class="detail-modals__select" name="ETH" id="eth-select">
+                                <p class="detail-modals__select-descr">ETH</p>
+                                <option value="">  </option>
+                                <option value="dol"> $ </option>
+                                <option value="eur"> € </option>
+                                <option value="rub"> ₽ </option>
+                                <option value="yan"> ¥ </option>
+                                <option value="crona"> Kč </option> 
+                                <option value="lira"> ₺ </option> 
+                            </select> -->
+                            <button class="detail-modals__btn">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+   </section>
+   <section class="creator">
+    <div class="creator__container container">
+        <h2 class="creator__title">From Creator</h2>
+        <div class="creator__cards">
+            <div class="creator__card">
+                <img class="creator__img" src="img/weekly-card5.png">
+                <p class="creator__card-check">Perperzon</p>
+                <p class="creator__card-name">Sun-Glass</p>
+                <div class="creator__card-descr">
+                    <span class="card__price">16,4</span>
+                    <span class="creator__card-follower">200</span>
+                </div>
+            </div>
+            <div class="creator__card">
+                <img class="creator__img" src="img/weekly-card1.png">
+                <p class="creator__card-check">Perperzon</p>
+                <p class="creator__card-name">Sun-Glass</p>
+                <div class="creator__card-descr">
+                    <span class="card__price">16,4</span>
+                    <span class="creator__card-follower">200</span>
+                </div>
+            </div>
+            <div class="creator__card">
+                <img class="creator__img" src="img/weekly-card2.png">
+                <p class="creator__card-check">Perperzon</p>
+                <p class="creator__card-name">Sun-Glass</p>
+                <div class="creator__card-descr">
+                    <span class="card__price">16,4</span>
+                    <span class="creator__card-follower">200</span>
+                </div>
+            </div>
+            <div class="creator__card">
+                <img class="creator__img" src="img/weekly-card4.png">
+                <p class="creator__card-check">Perperzon</p>
+                <p class="creator__card-name">Sun-Glass</p>
+                <div class="creator__card-descr">
+                    <span class="card__price">16,4</span>
+                    <span class="creator__card-follower">200</span>
+                </div>
+            </div>
+            <div class="creator__card">
+                <img class="creator__img" src="img/Rectangle 283.png">
+                <p class="creator__card-check">Perperzon</p>
+                <p class="creator__card-name">Sun-Glass</p>
+                <div class="creator__card-descr">
+                    <span class="card__price">16,4</span>
+                    <span class="creator__card-follower">200</span>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__block footer__block--first">
+            <a class="footer__logo" href="#"><img class="footer__logo-image" src="img/Logo (2).svg"></a>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Privacy Policy</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Term & Conditions</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__block">
+            <p class="footer__coperide">&copy;&nbsp;2023&nbsp;EATLY All Rights Reserved.</p>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Group 888.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 7.svg">
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 13.svg">   
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" src="img/Path 6.svg">
+                </li>
+            </ul>
+        </div>
+    </div>
+   </footer>

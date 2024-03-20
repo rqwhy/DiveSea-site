@@ -1,0 +1,132 @@
+.community{
+    min-height: 1390px;
+    &__container{
+        position: relative;
+    }
+
+    &__info{
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__main-ring{
+        min-height: 1086px;
+        background-image: url(../img/community-ring2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        animation: rotating 15s linear infinite;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__second-ring{
+        min-height: 860px;
+        min-width: 880px;
+        background-image: url(../img/community-ring1.png);
+        background-repeat: no-repeat;
+        background-position: center; 
+
+        animation: reverse-rotating 15s linear infinite;
+    }
+
+    &__title{
+        color: rgb(24, 24, 27);
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 54.4px;
+        letter-spacing: 0px;
+        text-transform: capitalize;
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        margin-bottom: 40px;
+    }
+
+    &__descr{
+        color: rgb(18, 20, 29);
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+
+        max-width: 597px;
+
+        margin-bottom: 49px;
+    }
+
+    &__text{
+        color: rgb(197, 197, 197);
+    }
+
+    &__link{
+        color: rgb(255, 255, 255);
+        font-size: 14.76px;
+        font-weight: 500;
+        line-height: 18.45px;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+        border-radius: 11.99px;
+
+        background-color: rgb(0, 0, 0);
+        border: 0;
+        text-decoration: none;
+
+        padding: 18px 22px;
+
+        transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #9c9c9c;
+        }       
+
+        &:active{
+            color: #9c9c9c;
+            background-color: #ffffff;
+            outline: 1px solid #000000;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+}
+
+@keyframes rotating{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes reverse-rotating{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}

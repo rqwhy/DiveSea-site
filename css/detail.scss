@@ -1,0 +1,462 @@
+.detail{
+    position: relative;
+
+    &-overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+    
+        height: 100vh;
+        width: 100%;
+    
+        opacity: 0;
+        visibility: hidden;
+    
+        transition: all 0.3s ease-in-out;
+
+        &--visible {
+            opacity: 1;
+            visibility: visible;
+    
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    &__container{
+        padding: 140px 0 132px;
+    }
+
+    &__btn-text{
+        color: rgb(35, 38, 47);
+
+        font-size: 31.06px;
+        font-weight: 600;
+        line-height: 27.61px;
+        letter-spacing: 0%;
+    }
+
+    &__btn-content{
+        display: flex;
+        gap: 34px;
+        align-items: center;
+    }
+
+    &__link{
+        border-radius: 32px;
+        background: rgb(230, 232, 236);
+        border: 0;
+        width: 36px;
+        height: 36px;
+
+        background-image: url(../img/icon.svg);
+        background-position: center;
+        cursor: pointer;
+
+        transition: color .2s ease-in-out;
+
+        text-decoration: none;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #ffffff;
+        }       
+
+        &:active{
+            color: #ffffff;
+            outline: 1px solid #000000;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &__card{
+        margin-top: 60px;
+        border-radius: 24.42px;
+        box-shadow: 17.56px 17.56px 61.06px 0px rgba(0, 0, 0, 0.12);
+        background-color: rgb(250, 250, 250);
+
+        padding: 37px 46px 43px 36px;
+
+        display: flex;
+        gap: 136px;
+    }
+
+    &__box {
+        position: relative;
+    }
+
+    &__title{
+        color: rgb(41, 43, 57);
+
+        font-size: 51.04px;
+        font-weight: 600;
+        line-height: 31.82px;
+        letter-spacing: 0%;
+
+        margin-bottom: 30px;
+    }
+
+    &__option {
+        text-align: center;
+    }
+
+    &__descr{
+        color: rgba(136, 136, 136, 0.7);
+
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 29.14px;
+        letter-spacing: 0%;
+
+        margin-bottom: 70px;
+        max-width: 400px;
+    }
+
+    &__aftors{
+        display: flex;
+        gap: 80px;
+        margin-bottom: 63px;
+    }
+
+    &__aftor{
+        display: flex;
+        align-items: center;
+        gap: 17px;
+    }
+
+    &__aftor-info{
+        row-gap: 7px;
+    }
+
+    &__purpose{
+        color: rgb(141, 141, 141);
+
+        font-size: 17.68px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+
+    &__aftor-name{
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 25.57px;
+        font-weight: 500;
+        line-height: 39.2px;
+        letter-spacing: 0%;
+    }
+
+    &__card-descr{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 55px;
+    }
+
+    &__decsr-block{
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+    }
+
+    &__price{       
+        font-family: Poppins;
+        font-size: 32.99px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 0px;
+
+        padding-left: 23px;
+
+        background-image: url(../img/weekly-card-price.svg);
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+
+    &__date{
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 19.23px;
+        font-weight: 400;
+        line-height: 30.23px;
+        letter-spacing: 0%;
+    }
+
+    &__btn{
+        border-radius: 19.62px;
+        background: rgb(20, 20, 22);
+
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 18.39px;
+        font-weight: 700;
+        line-height: 28.21px;
+        letter-spacing: 0%;
+        width: 100%;
+
+        border: 0;
+        padding: 25px 0;
+
+        background-image: url(../img/Vector\ \(9\).svg);
+        background-repeat: no-repeat;
+        background-position: 150px center;
+
+        transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #9c9c9c;
+        }       
+
+        &:active{
+            color: #9c9c9c;
+            background-color: #ffffff;
+            outline: 1px solid #000000;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+
+    &-modals{
+        position: absolute;
+        top: 503px;
+        left: 705px;
+
+        padding: 44px 18px 40px;
+
+        border: 2.12px solid rgb(0, 0, 0);
+        border-radius: 21.2px;
+
+        background-color: rgb(255, 255, 255);
+
+        display: none;
+
+        &--visible {
+            display: block;
+        }
+
+        &__title{
+            color: rgb(0, 0, 0);
+
+            font-family: Poppins;
+            font-size: 20.26px;
+            font-weight: 600;
+            line-height: 29.26px;
+            letter-spacing: 0%;
+
+            margin-bottom: 3px;
+        }
+
+        &__data{
+            color: rgb(136, 136, 136);
+
+            font-family: Poppins;
+            font-size: 14.63px;
+            font-weight: 400;
+            line-height: 18.01px;
+            letter-spacing: 0%;
+
+            margin-bottom: 18px;
+        }
+
+        &__card{
+            margin: 18px 0 45px;
+
+            padding: 18px 33px 26px 18px;
+
+            display: flex;
+            align-items: center;
+
+            border-radius: 11.25px;
+            box-shadow: -5.85px 11.7px 20.26px 0px rgba(16, 16, 16, 0.15);
+            background: rgb(255, 255, 255);
+        }
+
+        &__user-info{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            margin: 0 50px 0 18px;
+        }
+
+        &__usernmae{
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 16.88px;
+            font-weight: 500;
+            line-height: 25.88px;
+            letter-spacing: 0%;
+        }
+
+        &__userdate{
+            color: rgb(156, 156, 156);
+            font-family: Poppins;
+            font-size: 14.63px;
+            font-weight: 400;
+            line-height: 18.01px;
+            letter-spacing: 0%;
+        }
+
+        &__price{
+            color: var(--dark-color);
+        
+            font-family: Poppins;
+            font-size: 16.47px;
+            font-weight: 500;
+            line-height: 150%;
+            letter-spacing: 0px;
+
+            padding-left: 23px;
+
+            background-image: url(../img/weekly-card-price.svg);
+            background-repeat: no-repeat;
+            background-position: center left;
+        }
+
+        &__bottom{
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+
+        &__text{
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 29.26px;
+            letter-spacing: 0%;
+        }
+
+        &__btn{
+            border-radius: 19.62px;
+            background: rgb(20, 20, 22);
+
+            color: rgb(255, 255, 255);
+            font-family: Poppins;
+            font-size: 18.39px;
+            font-weight: 700;
+            line-height: 28.21px;
+            letter-spacing: 0%;
+            width: 100%;
+
+            border: 0;
+            padding: 22px 0 22px 30px;
+
+            background-image: url(../img/Vector\ \(9\).svg);
+            background-repeat: no-repeat;
+            background-position: 140px center;
+
+            transition: color .2s ease-in-out;
+
+        &:focus{
+            outline: none;
+        }
+
+        &:hover{
+            color: #9c9c9c;
+        }       
+
+        &:active{
+            color: #9c9c9c;
+            background-color: #ffffff;
+            outline: 1px solid #000000;
+        }
+
+        &:focus-visible{
+            outline-offset: 7px;
+            outline: 1.5px solid #acadb9;
+            border-radius: 6px;
+        }
+    }
+    }
+
+    &__select{
+        
+    }
+
+    &-slow{
+        backdrop-filter: blur(30.18px);
+        background-color: rgba(239, 239, 239, 0.25);
+    }
+}
+
+.modail-active{
+    display: flex;
+}
+
+.select,
+.label {
+    display: block;
+    border-radius: 10px;
+
+    color: #000000;
+    font-family: Poppins;
+    font-size: 18.39px;
+    font-weight: 700;
+    line-height: 28.21px;
+    letter-spacing: 0%;
+}
+
+.select {
+    position: absolute;
+    top: 0;
+    width: 160px;
+    height: 52px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: none transparent;
+    border: 0 none;
+}
+.select-box1 {
+    padding: 22px 0 22px 30px;
+    background-color: #ffffff;
+    border: 1px solid #000000;  
+}
+
+.label {
+    position: relative;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.open .label::before {
+    content: "";
+}
+.label::before {
+    content: "";
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 25px 79px;
+    background-color: #000000;
+    // border-left: 5px solid #ffffff;
+    color: #ffffff;
+    border-radius: 8px 0 0 8px;;
+}
+
+.label-desc {
+    color: rgb(255, 255, 255);
+    font-size: 20.26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+    position: relative;
+}
