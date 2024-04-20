@@ -1,7 +1,6 @@
 body {
-  background-color: #fff;
-  font-family: "Russo One", sans-serif;
-  font-family: "Muller", sans-serif;
+  background-color: rgb(249, 249, 249);
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -131,6 +130,21 @@ body {
   outline-offset: 7px;
   outline: 1.5px solid #acadb9;
   border-radius: 6px;
+}
+.slider__navigation--wallet {
+  bottom: 170px;
+  left: 50%;
+  height: 76px;
+  transform: translateX(-50%);
+  border-radius: 18.94px;
+  box-shadow: 0px 47.34px 37.87px -28.4px rgba(15, 15, 15, 0.12);
+  background-color: rgb(252, 252, 253);
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  min-width: 162px;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .card {

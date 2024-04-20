@@ -58,12 +58,13 @@
   margin-right: 30px;
   border-radius: 15px;
   border: 0;
-  background: rgb(237, 237, 237);
+  background-color: rgb(237, 237, 237);
   padding: 21px 23px 21px 70px;
   min-width: 348px;
   background-image: url(../img/header-icon.png);
   background-repeat: no-repeat;
   background-position: 23px center;
+  color: #000000;
 }
 .header__input::-moz-placeholder {
   color: rgb(194, 195, 203);

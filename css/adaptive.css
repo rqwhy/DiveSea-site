@@ -1,0 +1,266 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 70px;
+  }
+  .header__container {
+    display: flex;
+    justify-content: center;
+  }
+  .header__input {
+    margin-right: 20px;
+    border-radius: 15px;
+    padding: 14px 0 14px 29px;
+    background-position: 14px center;
+    background-size: 12px;
+    min-width: 248px;
+    font-size: 11px;
+    padding-left: 40px;
+  }
+  .header__input::-moz-placeholder {
+    font-size: 11px;
+  }
+  .header__input::placeholder {
+    font-size: 11px;
+  }
+  .header__logo-image {
+    height: 38px;
+    width: 38px;
+  }
+  .header__nav {
+    margin-right: 84px;
+  }
+  .header__list {
+    max-width: 317px;
+    gap: 25px;
+  }
+  .header__link {
+    font-size: 12.68px;
+  }
+  .header__btn {
+    padding: 12px 15.5px;
+    border-radius: 16.17px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.26px;
+    min-width: 142px;
+  }
+  .hero__container {
+    padding: 0 70px 116px;
+  }
+  .hero__title {
+    font-size: 53.34px;
+    font-weight: 600;
+    max-width: 400px;
+  }
+  .hero__image {
+    max-width: 550px;
+  }
+  .hero__text {
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 19.91px;
+    letter-spacing: 0px;
+    max-width: 355px;
+    margin-bottom: 32px;
+  }
+  .hero__mark {
+    gap: 4px;
+  }
+  .hero__point {
+    font-size: 26.15px;
+    font-weight: 600;
+    line-height: 33px;
+  }
+  .hero__descr {
+    font-size: 8.72px;
+    font-weight: 500;
+    line-height: 13px;
+  }
+  .hero__btn {
+    padding: 13px 21px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .hero__btn--create {
+    padding: 13px 15px;
+  }
+  .hero__buttons {
+    gap: 17px;
+    margin-bottom: 58px;
+  }
+  .weekly__container {
+    padding-top: 49px;
+  }
+  .weekly__card {
+    max-width: 199px;
+  }
+  .weekly__time {
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 6px 10px;
+  }
+  .weekly__descr {
+    font-size: 10px;
+    font-weight: 400;
+    min-width: 68px;
+  }
+  .weekly__card-content {
+    gap: 20px;
+  }
+  .weekly__card-name {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .weekly__btn {
+    font-size: 10.04px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.08px;
+    max-height: 38px;
+    display: flex;
+    align-items: center;
+    align-self: end;
+  }
+  .collection__title {
+    font-size: 32px;
+  }
+  .collection__table-departaments {
+    font-size: 15.65px;
+    font-weight: 500;
+  }
+  .collection__afatar {
+    width: 59px;
+    height: 59px;
+  }
+  .collection__quantity {
+    font-size: 16.82px;
+  }
+  .collection__card {
+    max-width: 260px;
+  }
+  .collection__card__title {
+    font-size: 14.93px;
+    font-weight: 600;
+  }
+  .collection__card--recent {
+    left: auto;
+    right: 30px;
+  }
+  .collection__user {
+    gap: 6px;
+  }
+  .collection__user--start {
+    gap: 87px;
+  }
+  .collection__aftor-descr {
+    justify-content: center;
+  }
+  .collection__percent {
+    font-size: 9.56px;
+    font-weight: 400;
+  }
+  .collection__price {
+    font-size: 10.93px;
+    font-weight: 600;
+  }
+  .collection__aftor-name {
+    font-size: 15.93px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  .collection__adressed {
+    font-size: 10.88px;
+    font-weight: 400;
+  }
+  .explore__title {
+    font-size: 32.03px;
+    font-weight: 600;
+  }
+  .explore__card {
+    max-width: 199px;
+  }
+  .explore__time {
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 6px 10px;
+  }
+  .explore__descr {
+    font-size: 10px;
+    font-weight: 400;
+    min-width: 68px;
+  }
+  .explore__card-content {
+    gap: 20px;
+  }
+  .explore__card-name {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .explore__btn {
+    font-size: 10.04px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.08px;
+    max-height: 38px;
+    display: flex;
+    align-items: center;
+    align-self: end;
+  }
+  .advanteges {
+    background-position: 300px 60px;
+  }
+  .slider__navigation--hero {
+    top: -80px;
+  }
+  .create__container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 113px;
+  }
+  .create__card {
+    padding: 22px 22px 0 46px;
+    max-width: 885px;
+  }
+  .create__title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .create__text {
+    font-size: 14.41px;
+    font-weight: 500;
+  }
+  .create__btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 18px;
+  }
+  .footer__logo-image {
+    width: 144px;
+    height: 100px;
+  }
+  .footer__link {
+    font-size: 12.68px;
+    font-weight: 500;
+    line-height: 19.02px;
+  }
+  .footer__block {
+    padding-bottom: 0;
+  }
+  .footer__block--last {
+    padding-bottom: 57px;
+  }
+  .faq__container {
+    padding-bottom: 152px;
+  }
+  .faq__title {
+    font-size: 34.67px;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=adaptive.css.map */

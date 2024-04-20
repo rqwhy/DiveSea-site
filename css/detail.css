@@ -223,6 +223,9 @@
   box-shadow: -5.85px 11.7px 20.26px 0px rgba(16, 16, 16, 0.15);
   background: rgb(255, 255, 255);
 }
+.detail-modals__card--chart {
+  max-height: 75px;
+}
 .detail-modals__user-info {
   display: flex;
   flex-direction: column;
@@ -308,6 +311,147 @@
           backdrop-filter: blur(30.18px);
   background-color: rgba(239, 239, 239, 0.25);
 }
+.detail-chart {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  border: 1.14px solid rgb(237, 242, 247);
+  border-radius: 18.28px;
+  box-shadow: 20.06px 20.06px 69.75px 0px rgba(0, 0, 0, 0.12);
+  background: rgb(255, 255, 255);
+  padding: 27px 50px 30px 30px;
+  max-width: 846px;
+}
+.detail-chart__title {
+  color: rgb(26, 32, 44);
+  font-family: Poppins;
+  font-size: 20.56px;
+  font-weight: 600;
+  line-height: 135%;
+  letter-spacing: 0.23px;
+}
+.detail-chart__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+.detail-chart__descr {
+  color: rgb(26, 32, 44);
+  font-family: Poppins;
+  font-size: 13.71px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.46px;
+  margin-right: 15px;
+  padding-left: 19px;
+  background-image: url(../img/Rectangle\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.detail-chart__block {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  margin-bottom: 20px;
+}
+.detail-chart__box {
+  margin-top: 100px;
+  display: flex;
+  gap: 54px;
+}
+.detail-chart__select {
+  color: rgb(26, 32, 44);
+  font-family: Poppins;
+  font-size: 13.71px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.46px;
+  border-radius: 9.14px;
+  background: rgb(250, 250, 250);
+  border: 0;
+  padding: 7px 4px;
+}
+.detail-chart__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 42px;
+}
+.detail-chart__list--bottom {
+  flex-direction: row;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+  margin-left: 30px;
+}
+.detail-chart__item {
+  color: rgb(20, 20, 22);
+  font-family: Poppins;
+  font-size: 17.01px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.detail-chart__item--bottom {
+  padding: 10px 8px;
+  color: rgb(150, 150, 151);
+}
+.detail-chart__select {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 15.24px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  border-radius: 9.14px;
+  background: rgb(250, 250, 250);
+}
+.detail-chart__wrapper {
+  min-width: 297px;
+  border-radius: 11.53px;
+  background: rgb(0, 0, 0);
+  position: relative;
+  display: flex;
+}
+.detail-chart__wrapper::before {
+  position: absolute;
+  content: url(../img/make-ar.svg);
+  top: 46%;
+  left: 63px;
+  transform: translateY(-46%);
+}
+.detail-chart__input {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #000000;
+  padding: 23px 20px 23px 26px;
+  background-image: url(../img/Mask\ Group.svg);
+  background-repeat: no-repeat;
+  background-position: 661px center;
+  transition: color 0.2s ease-in-out;
+  min-width: 226px;
+  border-radius: 0 13px 13px 0;
+}
+.detail-chart__currency {
+  padding: 21px 46px 21px 27px;
+  border-radius: 11px 0 0 11px;
+  border: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 13.45px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -2%;
+}
+.detail-card {
+  border-radius: 15.95px;
+  box-shadow: 16.8px 16.8px 58.41px 0px rgba(0, 0, 0, 0.12);
+  background: rgb(255, 255, 255);
+  padding: 36px 28px;
+}
 
 .modail-active {
   display: flex;
@@ -371,4 +515,28 @@
   line-height: 30px;
   letter-spacing: 0%;
   position: relative;
+}
+
+.detail-card__username {
+  font-size: 12px;
+}
+.detail-card__userdate {
+  font-size: 11px;
+}
+.detail-card__user-info {
+  margin: 0 34px 0 10px;
+}
+.detail-card__content--first {
+  margin: 8px 0 18px;
+}
+.detail-card__content--second {
+  margin: 0 0 37px;
+}
+.detail-card__option {
+  padding-top: 10px;
+  color: #000000;
+}
+
+.detail-card .detail-modals__card:last-child {
+  margin: 0 0 37px;
 }/*# sourceMappingURL=detail.css.map */

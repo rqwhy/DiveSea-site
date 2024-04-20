@@ -36,6 +36,10 @@
   gap: 23px;
   margin-bottom: 82px;
 }
+.hero__bonus {
+  font-weight: 700;
+  color: #000000;
+}
 .hero__btn {
   font-family: Poppins;
   font-size: 16.27px;
